@@ -20,7 +20,7 @@ namespace BankCard
         public string Surname { get; private set; }
         public long CardNumber { get;private  set; }
         public int CVV { get; private set; }
-        public decimal Balance { get;private set; }
+        public decimal Balance { get;private protected set; }
 
         public virtual void Medaxil(decimal value)
         {
